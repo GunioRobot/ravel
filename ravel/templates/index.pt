@@ -22,7 +22,7 @@
     <p>
       Ravel, fun for the whole family.
     </p>
-   
+
 
   </tal:block>
   <tal:block metal:fill-slot="rail">
@@ -30,6 +30,6 @@
     <p> Here is the rail</p>
     <p> Here is the rail</p>
   </tal:block>
-  
+
 </body>
 </html>

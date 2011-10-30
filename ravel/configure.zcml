@@ -109,8 +109,8 @@
       callback=".security.groupfinder"
       secret="WiL0TK9P760LvgpPnv9lqNvqFvIiXz51Iiaol3eEBB5v"
       />
-  
+
   <aclauthorizationpolicy />
- 
+
 
 </configure>

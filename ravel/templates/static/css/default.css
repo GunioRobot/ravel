@@ -1,5 +1,5 @@
 /*
-ravel default CSS 
+ravel default CSS
 */
 
 @import url(http://fonts.googleapis.com/css?family=Molengo);
@@ -31,10 +31,10 @@ body {
     padding: 1em 1em 1em 0.5em;
     background-color: rgb(148, 189, 93);
     background-color: rgba(148, 189, 93,0.3);
-    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78)); 
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));  
+    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));
     -moz-box-shadow: -7px 7px 10px #470d06;
-    -webkit-box-shadow: -3px 5px 5px #470d06;  
+    -webkit-box-shadow: -3px 5px 5px #470d06;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     clear: right;
@@ -73,7 +73,7 @@ a img {
 
 #logo nav {
     float: right;
-} 
+}
 
 #columnwrapper {
     width: 100%;
@@ -82,7 +82,7 @@ a img {
 }
 
 #navigation-tabs {
-    float: none; 
+    float: none;
     display: block;
     position: relative;
     margin: auto;
@@ -92,12 +92,12 @@ a img {
     -webkit-border-radius: 10px;
     background-color: rgb(50, 50, 101);
     background-color: rgba(50, 50, 101, 0.3);
-    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78)); 
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));  
+    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));
 }
 
 #logo nav {
-    float: right; 
+    float: right;
     display: block;
     position: relative;
     margin: auto 0;
@@ -107,8 +107,8 @@ a img {
     -webkit-border-radius: 10px;
     background-color: rgb(50, 50, 101);
     background-color: rgba(50, 50, 101, 0.9);
-    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78)); 
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));  
+    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));
 }
 
 #part-tabs li {
@@ -124,7 +124,7 @@ a img {
     -webkit-border-radius: 5px;
     list-style: none;
     padding: .5em .75em;
-    margin: 0em -.25em; 
+    margin: 0em -.25em;
     display: inline;
     color: white;
 }
@@ -134,7 +134,7 @@ a img {
    background-color: rgba(50, 50, 101, .8);
    border: 1px solid rgb(0, 0, 0);
    border: 1px solid rgba(255, 255, 255, .1);
- 
+
 }
 
 #part-tabs li a:hover, #logo nav a:hover {
@@ -148,7 +148,7 @@ a img {
 #logo nav a:hover {
    background-color: rgb(50, 50, 101);
    background-color: rgba(50, 51, 70, .9);
- 
+
 }
 
 
@@ -157,7 +157,7 @@ a img {
     background-color: rgba(50, 50, 101, .75);
     border: 1px solid rgb(0, 0, 0);
     border: 1px solid rgba(255, 255, 255, .95);
-    color: black; 
+    color: black;
 }
 
 #part-tabs li a.current:hover {
@@ -235,12 +235,12 @@ article h1 {
 
 article p {
     text-indent: 1em;
-    margin: 1em;   
+    margin: 1em;
 }
 
 article ol li {
     list-style: lower-alpha;
-    margin: 2em; 
+    margin: 2em;
 }
 
 article ul li {
@@ -295,10 +295,10 @@ footer p {
     padding: 1em;
     background-color: rgb(148, 189, 93);
     background-color: rgba(148, 189, 93,0.3);
-    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78)); 
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));  
+    background: -moz-linear-gradient(100% 100% 90deg, #94bd5e, rgb(134,156,78));
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(134,156,78)), to(#94bd5e));
     -moz-box-shadow: -7px 7px 10px #470d06;
-    -webkit-box-shadow: -3px 5px 5px #470d06;  
+    -webkit-box-shadow: -3px 5px 5px #470d06;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }

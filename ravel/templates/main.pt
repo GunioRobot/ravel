@@ -12,7 +12,7 @@
   <![endif]-->
   <title>${title}</title>
   <meta charset="utf-8" />
-  <tal:block metal:define-slot="meta"> 
+  <tal:block metal:define-slot="meta">
     <!-- general meta elements -->
     <meta tal:attributes="name string:keywords;
 			  content string:${keywords}|string:demo deform zpugdc repoze.bfg mongodb koansys" />
@@ -20,23 +20,23 @@
 			  content string:${description}|string:A web app demonstrating deform in conjunction with repoze.bfg and mongodb" />
   </tal:block>
   <tal:block metal:define-slot="opengraph">
-  <!-- TODO: opengraph meta elements or do I only want them on the resource 
+  <!-- TODO: opengraph meta elements or do I only want them on the resource
        pages that would have them -->
   </tal:block>
   <!-- ********* CSS reset ********** -->
-  <link rel="stylesheet" 
-	type="text/css" 
+  <link rel="stylesheet"
+	type="text/css"
 	href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css" />
   <!-- *******  deform styles ********-->
-  <link rel="stylesheet" 
-	href="${request.application_url}/deform_static/css/form.css" 
+  <link rel="stylesheet"
+	href="${request.application_url}/deform_static/css/form.css"
 	type="text/css" />
   <!-- <link rel="stylesheet"  -->
   <!-- 	href="${request.application_url}/deform_static/css/theme.css"  -->
   <!-- 	type="text/css" /> -->
   <!-- ****** our ravel styles come last to override the blank space created by deform html{} css ***** -->
-  <link href="${request.application_url}/static/css/default.css" 
-	rel="stylesheet" 
+  <link href="${request.application_url}/static/css/default.css"
+	rel="stylesheet"
 	type="text/css" />
   <!-- ****** other resources and rel links ******** -->
   <link rel="shortcut icon"
@@ -58,11 +58,11 @@
       </a>
       <h1>ravel</h1>
       <nav tal:condition="logged_in">
-	<a href="${request.application_url}/search"  
+	<a href="${request.application_url}/search"
 	   title="Search by part number">search</a>
-	<a href="${request.application_url}/page/add"  
+	<a href="${request.application_url}/page/add"
 	   title="Add a page">add page</a>
-	<a href="${request.application_url}/announcement/add"  
+	<a href="${request.application_url}/announcement/add"
 	   title="Add a news item">add announcement</a>
 	<a href="${request.application_url}/logout"
 	   title="Log out">Log out</a>
@@ -90,7 +90,7 @@
 	<tal:block metal:define-slot="rail" />
       </div>
     </div> <!-- columnwrapper -->
-    
+
     <!-- end page -->
 
     <!-- start footer -->
